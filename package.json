@@ -1,8 +1,0 @@
-{
-  "name": "algoritmos",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:mayconbalves/algoritmos.git",
-  "author": "mayconbalves <mayconmustaine@hotmail.com>",
-  "license": "MIT"
-}
