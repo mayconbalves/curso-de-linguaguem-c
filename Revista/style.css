@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18pt;
+    text-transform: capitalize;
+}
+.underline{
+    width: 6.9rem;
+    height: 0.2rem;
+    background-color:rgb(21, 176, 228);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 60px;
+    margin-bottom: 1.4rem;
+    letter-spacing: auto;
+}
+img{
+    border-radius: 50px;
+    width: 350px;
+   
+}
+
+.botao{
+    margin-top: 2vh;
+   
+}
+.surprise-btn{
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid;
+    height: 30px;
+    width: 120px;
+    outline: none;
+    background-color:gray;
+}
+.fontAwsome{
+    display: flex;
+    margin-top: 2vh;
+    justify-content: space-around;
+    width: 80px;
+    outline: none;
+   
+}
+.surprise-btn:hover{
+    background-color:rgb(21, 176, 228);
+    transition: 0.5s ease;
+    color: whitesmoke;
+}
+.text{
+    margin-top: 2vh;
+    text-align: center;
+    width: 50%;
+  
+}
+.field{
+    text-align: justify;
+    padding: 10px;
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+#author,
+#job{
+    margin: 10px;
+    color: rgb(11, 134, 241);  
+}
+
+
+
