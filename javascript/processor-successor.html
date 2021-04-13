@@ -1,0 +1,18 @@
+<div id="processor"></div>
+<div id="successor"></div>
+
+<style>
+  h1 {
+    text-align: center;
+    font-size: large;
+  }
+</style>
+
+<script>
+  const num = Number(prompt('Digite um numero qualquer para saber seu antecessor e o sucessor'))
+
+  const processor = document.getElementById('processor')
+    .innerHTML = `<h1>O antecessor é: ${num - 1}</h1>`
+  const successor = document.getElementById('successor')
+    .innerHTML = `<h1>O successor  é: ${num + 1}</h1>`
+</script>
